@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.giggletouch.app</string>
+    <key>CFBundleName</key>
+    <string>GiggleTouch</string>
+    <key>CFBundleDisplayName</key>
+    <string>GiggleTouch</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleExecutable</key>
+    <string>GiggleTouch</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <!-- Hide from Dock — menu bar only -->
+    <key>LSUIElement</key>
+    <true/>
+    <!-- Accessibility permission explanation shown in System Settings -->
+    <key>NSAppleEventsUsageDescription</key>
+    <string>GiggleTouch needs Accessibility access to listen for trackpad gestures system-wide.</string>
+    <key>NSInputMonitoringUsageDescription</key>
+    <string>GiggleTouch needs Input Monitoring permission to react to trackpad strokes system-wide.</string>
+</dict>
+</plist>
