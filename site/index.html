@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GiggleTouch</title>
+  <meta
+    name="description"
+    content="A ridiculous little Mac menu bar app that giggles when you stroke the trackpad."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <div class="glow glow-left"></div>
+    <div class="glow glow-right"></div>
+
+    <header class="hero">
+      <div class="hero-copy hero-copy-flow">
+        <img
+          class="float-girl float-girl-right hero-cutout"
+          src="./cutouts/png-clipart-catgirl-anime-kawaii-manga-cat-blue-cg-artwork-cutout.png"
+          alt="Anime catgirl illustration"
+        >
+        <p class="eyebrow">kawaii menu bar nonsense, lovingly engineered</p>
+        <h1>Touch the trackpad.<br>Summon the giggle girl.</h1>
+        <p class="lede">
+          GiggleTouch is a tiny free Mac app that turns innocent two-finger strokes
+          into sparkly little giggles. It is unserious software with anime-main-character energy.
+        </p>
+        <p class="lede">
+          The whole bit lives quietly in your menu bar until your fingers get curious,
+          then it answers with a random little laugh like your laptop just developed a blush.
+        </p>
+
+        <div class="cta-row">
+          <a class="button button-primary" href="./downloads/GiggleTouch.zip" download>
+            Download for Free
+          </a>
+          <a class="button button-secondary" href="#how-it-works">
+            How It Works
+          </a>
+        </div>
+
+        <p class="microcopy">Menu bar only. Mac only. Cute enough to be suspicious.</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="feature-card marquee-card">
+        <div class="marquee-copy marquee-copy-flow">
+          <img
+            class="float-girl float-girl-left side-cutout side-cutout-dark"
+            src="./cutouts/279-2795420_anime-girl-kawaii-png-png-cutout.png"
+            alt="Anime girl illustration"
+          >
+          <p class="card-kicker">What this thing actually does</p>
+          <h2>Every qualifying trackpad stroke triggers one random giggle from the built-in library.</h2>
+          <p>
+            No bloated dashboard. No weird account. No productivity claims.
+            Just a cute little menu bar gremlin waiting for protagonist-level attention.
+          </p>
+          <p>
+            The joke works because it is immediate. Stroke the trackpad, hear a giggle,
+            try not to lose your composure in public, fail gracefully, repeat.
+          </p>
+        </div>
+
+        <div class="soundboard" aria-label="Giggle mood board">
+          <button class="pill" data-whisper="senpai... scroll one more time">Soft</button>
+          <button class="pill" data-whisper="kicking my little anime feet">Teasing</button>
+          <button class="pill" data-whisper="absolutely not safe for productivity">Chaotic</button>
+          <button class="pill" data-whisper="main character trackpad energy">Focused</button>
+        </div>
+      </section>
+
+      <section class="grid" id="how-it-works">
+        <article class="feature-card">
+          <p class="card-kicker">1. Install</p>
+          <h3>Open the app and let macOS do its tsundere little permission routine.</h3>
+          <p>
+            On first launch, macOS may ask for Input Monitoring and Accessibility.
+            That is the price of making your laptop act a little too alive.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <p class="card-kicker">2. Touch</p>
+          <h3>Give the trackpad a simple two-finger stroke.</h3>
+          <p>
+            Scroll up, scroll down, slow, quick, shy, dramatic. If the gesture registers,
+            the app picks a random giggle and lets the bit land.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <p class="card-kicker">3. Repeat</p>
+          <h3>Enjoy the tiny burst of chaos.</h3>
+          <p>
+            It lives in your menu bar, keeps things lightweight, and politely avoids
+            stacking too many giggles at once like some kind of overexcited side character.
+          </p>
+        </article>
+      </section>
+
+      <section class="feature-card install-card">
+        <div class="install-copy install-copy-flow">
+          <img
+            class="float-girl float-girl-right install-cutout"
+            src="./cutouts/pngtree-hand-painted-a-happy-laughing-japanese-girl-comic-design-png-image_4380830-cutout.png"
+            alt="Laughing anime girl illustration"
+          >
+          <p class="card-kicker">Free Download</p>
+          <h2>No paywall. No signup. Just a zip.</h2>
+          <p>
+            If this improves your day, wonderful. If it makes you laugh at your own laptop in public,
+            even better.
+          </p>
+        </div>
+
+        <div class="install-actions">
+          <a class="button button-primary" href="./downloads/GiggleTouch.zip" download>
+            Get GiggleTouch
+          </a>
+          <p class="download-note">Built for macOS. Menu bar app. Shamelessly kawaii.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img
+        class="footer-cutout"
+        src="./cutouts/vqwlz2ul1-cutout.png"
+        alt="Laughing anime girl illustration"
+      >
+      <p>Made for people who think computers should blush a little.</p>
+    </footer>
+  </div>
+
+  <div class="whisper" id="whisper" aria-live="polite">senpai noticed your trackpad technique</div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
